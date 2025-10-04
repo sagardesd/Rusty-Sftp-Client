@@ -20,6 +20,8 @@ The example demonstrates how to perform the most common SFTP operations programm
 The goal of this repository is to provide **clear, working Rust code** showing how to integrate SFTP functionality into your own projects.  
 It is **not a production-ready library or CLI tool**, but a **learning resource and starting point** for developers who want to embed SFTP into their applications.
 
+Read the full API documentation: `cargo doc --open`
+
 ---
 
 ## 📦 Requirements
@@ -31,11 +33,18 @@ It is **not a production-ready library or CLI tool**, but a **learning resource 
 
 ## ▶️ Example Usage
 
-The main example is provided in [`basic_usage.rs`](./basic_usage.rs).  
+Examples are provided under the directory `examples`. 
 You can run it directly with `cargo run` after adjusting the host/user/path values inside the file.
 
-# Run basic example
+### Run basic example
 cargo run --example basic_usage
 
-# Run advanced example
+### Run advanced example
 cargo run --example advanced_usage
+
+## Planned feature addition:
+- Add operation progress tracker
+- Add support to pass status tracking handlers in the operation apis
+- Add support for delete/mkdir
+- Rest API addition 
+- Containerization of the project for easy testing
