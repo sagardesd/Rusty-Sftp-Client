@@ -1,0 +1,30 @@
+[package]
+name = "rusty_sftp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+openssh = "0.11.5"
+openssh-sftp-client = { version = "0.15.3", features = ["openssh"] }
+tokio = { version = "1.47.1", features = ["full"] }
+tokio-util = "0.7.7"
+futures-util = "0.3.30"
+serde = { version = "1.0.183", features = ["derive"] }
+serde_json = "1.0.107"
+anyhow = "1.0.100"
+tracing = "0.1.41"
+futures = "0.3"
+bytes = "1"
+tracing-subscriber = "0.3.20"
+
+
+[dev-dependencies]
+tokio-test = "0.4"
+
+[[example]]
+name = "basic_usage"
+path = "examples/basic_usage.rs"
+
+[[example]]
+name = "advanced_usage"
+path = "examples/advanced_usage.rs"
