@@ -15,7 +15,7 @@ The example demonstrates how to perform the most common SFTP operations programm
 
 ---
 
-## 📖 Purpose
+## Purpose
 
 The goal of this repository is to provide **clear, working Rust code** showing how to integrate SFTP functionality into your own projects.  
 It is **not a production-ready library or CLI tool**, but a **learning resource and starting point** for developers who want to embed SFTP into their applications.
@@ -24,7 +24,7 @@ Read the full API documentation: `cargo doc --open`
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Rust (latest stable recommended)  
 - An accessible SSH/SFTP server for testing  
