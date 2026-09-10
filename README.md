@@ -31,7 +31,7 @@ Read the full API documentation: `cargo doc --open`
 
 ---
 
-## ▶️ Example Usage
+## Example Usage
 
 Examples are provided under the directory `examples`. 
 You can run it directly with `cargo run` after adjusting the host/user/path values inside the file.
